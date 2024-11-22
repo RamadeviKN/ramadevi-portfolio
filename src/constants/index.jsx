@@ -51,7 +51,7 @@ export const PROJECTS = [
       A fully responsive portfolio website using <strong><i>React</i></strong>, <strong><i>HTML5</i></strong>, and <strong><i>Tailwind CSS</i></strong>, with dynamic animations powered by <strong><i>Framer Motion</i></strong>. The site adapts seamlessly across devices to showcase my skills, projects, and contact information, providing a modern and interactive user experience.
     </>),
     image: projectImage1,
-    githubLink: "https://github.com/user/ramadevi-portfolio",
+    githubLink: "https://github.com/RamadeviKN/ramadevi-portfolio",
   },
   {
     id: 2,
