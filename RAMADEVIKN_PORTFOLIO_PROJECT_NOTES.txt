@@ -1,0 +1,37 @@
+npm create vite@latest ./ --template react
+npm install
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+
+in tailwind.config.js, add below:
+content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  
+ in index.css, replace the file with below contents:
+ 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Delete App.css file from project
+
+Use Space Grotesk from google fonts website
+
+use this in index.css file:
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+Add some css for html and body colours
+
+In App.jsx, delete existing code and create rfce
+
+After creating HERO comp, get the error for importing font fab. install react-icons
+
+npm i react-icons
+
+npm install react-hot-toast //for email functionality in react
+emailjs.com -For sending email
+npm install --save @emailjs/browser
+npm i framer-motion
+ 
