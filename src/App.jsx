@@ -6,6 +6,7 @@ import Bio from './components/Bio'
 import Skills from './components/Skills'
 import WorkExperience from './components/WorkExperience'
 import EducationDetails from './components/EducationDetails'
+import Certifications from './components/Certifications'
 import ContactForm from './components/ContactForm'
 import Footer from './components/Footer'
 
@@ -20,6 +21,7 @@ function App() {
         <Bio />
         <Skills />
         <WorkExperience />
+        <Certifications />
         <EducationDetails />
         <ContactForm />
         <Footer />

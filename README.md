@@ -13,6 +13,7 @@ Projects: Detailed descriptions of my projects, showcasing their functionality, 
 Bio: A concise introduction to my professional background and interests.
 Work Experience: Insight into my roles and contributions as a full-stack developer.
 Certifications: Details of my recent certifications.
+Education Details: Details of my education background
 Contact: Links to reach me via email and social platforms.
 
 Projects

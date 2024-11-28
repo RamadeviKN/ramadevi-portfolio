@@ -11,6 +11,14 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
+import certImage1 from "../assets/certificate1.jpg";
+import certImage2 from "../assets/certificate2.jpg";
+import certImage3 from "../assets/certificate3.jpg";
+import certImage4 from "../assets/certificate4.jpg";
+import certImage5 from "../assets/certificate5.jpg";
+import certImage6 from "../assets/certificate6.jpg";
+
+
 import { RiReactjsLine } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { SiPython } from "react-icons/si";
@@ -30,6 +38,7 @@ export const NAVIGATION_LINKS = [
   { label: "Bio", href: "#bio" },
   { label: "Skills", href: "#skills" },
   { label: "Work Experience", href: "#work" },
+  { label: "Certifications", href: "#certifications" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
 ];
@@ -243,6 +252,39 @@ export const EXPERIENCES = [
     duration: "April 2013 - April 2014",
     description:
       "In my role as a Programmer Analyst Trainee, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces and RestFul webservices using Java. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
+  },
+];
+
+export const CERTIFICATIONS = [
+  {
+    id: 1,
+    name: "SpringBoot for Beginners by Amigoscode",
+    image: certImage1,
+  },
+  {
+    id: 2,
+    name: "Python Programmer Bootcamp by 365DataScience",
+    image: certImage2,
+  },
+  {
+    id: 3,
+    name: "Machine Learning in Python by 365DataScience",
+    image: certImage3,
+  },
+  {
+    id: 4,
+    name: "Introduction to Python by 365DataScience",
+    image: certImage4,
+  },
+  {
+    id: 5,
+    name: "Intermediate Python Programming by 365DataScience",
+    image: certImage5,
+  },
+  {
+    id: 6,
+    name: "Data Cleaning and Preprocessing with pandas by 365DataScience",
+    image: certImage6,
   },
 ];
 
