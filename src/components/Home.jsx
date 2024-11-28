@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 function Home() {
   return (
-    <section className="mx-20 flex min-h-screen flex-wrap items-center">
+    <section className="mx-20 flex min-h-screen flex-wrap items-center from-neutral-600">
       <motion.div
       initial={{opacity:0,x:-50}}
       animate={{opacity:1,x:0}}
@@ -31,6 +31,13 @@ function Home() {
       transition={{duration:1,delay:1}}
       className="mb-8 p-2 text-xl text-justify">
         {HOME.description}
+      </motion.p>
+      <motion.p 
+      initial={{opacity:0,x:-50}}
+      animate={{opacity:1,x:0}}
+      transition={{duration:1,delay:1}}
+      className="mb-8 p-2 text-xl font-semibold text-justify">
+        {HOME.note}
       </motion.p>
       </motion.div>
       <motion.div

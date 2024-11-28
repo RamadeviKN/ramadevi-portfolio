@@ -10,7 +10,7 @@ function WorkExperience() {
     whileInView={{opacity:1,y:0}}
     transition={{duration:1}}
     className='text-center text-4xl font-semibold tracking-tighter'>
-        Work Experience
+        Industry Experience
     </motion.h2>
     <motion.div
     initial={{opacity:0}}

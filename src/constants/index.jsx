@@ -37,7 +37,7 @@ export const NAVIGATION_LINKS = [
   { label: "Projects", href: "#projects" },
   { label: "Bio", href: "#bio" },
   { label: "Skills", href: "#skills" },
-  { label: "Work Experience", href: "#work" },
+  { label: "Industry Experience", href: "#work" },
   { label: "Certifications", href: "#certifications" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
@@ -49,7 +49,9 @@ export const HOME = {
   welcome_msg: "Welcome to my portfolio!",
   description:
     "I am a passionate full-stack developer and a machine learning enthusiast with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web apps with 8 years of experience in web development. I also love to explore various machine learning models to get deeper understanding of integrating web apps with machine learning models.",
-};
+  note:
+  "Currently, I am upskilling and looking for C2C Job opportunities in Java/Python development or Machine Learning!",
+  };
 
 export const PROJECTS = [
   {
@@ -230,7 +232,7 @@ export const EXPERIENCES = [
     company: "Learning and Upskilling with persistence!",
     duration: "January 2022 - Till Date",
     description:
-      "Career Break due to relocation from India to USA. My permit to work is approved in USA. Hence, I am looking for C2C opportunities!",
+      "Career Break due to relocation from India to USA. My permit to work is approved in USA. Currently, I am upskilling in Java, Python and Machine Learning by attending various bootcamps and looking for C2C Job opportunities in Java/Python development or Machine Learning!",
   },
   {
     title: "Associate Software Engineer",
