@@ -250,7 +250,7 @@ export const EXPERIENCES = [
   },
   {
     title: "Programmer Analyst Trainee",
-    company: "Bright Future Technologies",
+    company: "Cognizant Technology Solutions",
     duration: "April 2013 - April 2014",
     description:
       "In my role as a Programmer Analyst Trainee, I assisted in the development and maintenance of various web applications. I gained hands-on experience in utilizing HTML, CSS, and JavaScript to create user-friendly interfaces and RestFul webservices using Java. I actively participated in team meetings, contributed to project planning, and collaborated with senior developers to implement new features.",
