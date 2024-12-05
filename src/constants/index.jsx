@@ -66,14 +66,14 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    name: "Micro Goal Tracker",
+    name: "FAQTelegramBot",
     description: (
       <>
-      A front-end application to help coaching clients track and manage micro goals as part of achieving larger objectives. Created to empower clients by visualizing short-term progress, the app allows users to easily add, complete, and remove goals. Built using <strong><i>HTML5</i></strong>, <strong><i>CSS3</i></strong>, and <strong><i>JavaScript</i></strong>, the project delivers a simple, user-friendly interface for effective micro-goal management.
+        A smart and efficient Telegram bot for answering admission-related queries at <strong><i>ABC University</i></strong>. Built with <strong><i>Spring Boot 3.4.0</i></strong>, <strong><i>Java 17</i></strong>, and <strong><i>MySQL</i></strong>, this bot uses AI-powered <strong><i>Python Flask</i></strong> backend with <strong><i>spaCy</i></strong> for NLP to provide relevant answers to user queries. The backend is fully containerized with <strong><i>Docker</i></strong> to ensure scalable and seamless deployment.
       </>
     ),
-      image: projectImage3,
-    githubLink: "https://github.com/RamadeviKN/MICRO_GOAL_TRACKER",
+      image: projectImage2,
+    githubLink: "https://github.com/RamadeviKN/FAQTelegramBot",
   },
   {
     id: 3,
@@ -97,18 +97,18 @@ export const PROJECTS = [
       image: projectImage6,
     githubLink: "https://github.com/RamadeviKN/cyber-threat-detection-machine-learning-project",
   },
-  /*{
+  {
     id: 5,
-    name: "Market Segment Analysis Using Machine Learning - Clustering",
-    description:(
+    name: "Micro Goal Tracker",
+    description: (
       <>
-      "Test"
+      A front-end application to help coaching clients track and manage micro goals as part of achieving larger objectives. Created to empower clients by visualizing short-term progress, the app allows users to easily add, complete, and remove goals. Built using <strong><i>HTML5</i></strong>, <strong><i>CSS3</i></strong>, and <strong><i>JavaScript</i></strong>, the project delivers a simple, user-friendly interface for effective micro-goal management.
       </>
     ),
-      image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+      image: projectImage3,
+    githubLink: "https://github.com/RamadeviKN/MICRO_GOAL_TRACKER",
   },
-  {
+  /*{
     id: 6,
     name: "Association Rule Learning",
     description:(
