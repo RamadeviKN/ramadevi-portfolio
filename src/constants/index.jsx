@@ -108,18 +108,18 @@ export const PROJECTS = [
       image: projectImage3,
     githubLink: "https://github.com/RamadeviKN/MICRO_GOAL_TRACKER",
   },
-  /*{
+  {
     id: 6,
-    name: "Association Rule Learning",
+    name: "Market Segmentation Analysis for Mall Customers",
     description:(
       <>
-      "Test"
+      Market Segmentation Analysis project leverages machine learning techniques to segment mall customers into distinct groups. Identified key customer segments based on their shopping behaviors by employing K-Means and Hierarchical Clustering algorithms. Leveraged Python libraries like <strong><i>NumPy, Pandas, Seaborn, Matplotlib,</i></strong> and <strong><i>Scikit-learn</i></strong> analyzed and visualized the data, providing valuable insights for targeted marketing strategies.
       </>
     ),
-      image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+      image: projectImage1,
+    githubLink: "https://github.com/RamadeviKN/Market-Segmentation-analysis-for-Mall-customers",
   },
-  {
+  /*{
     id: 7,
     name: "Reinforcement Learning",
     description:(
