@@ -19,7 +19,7 @@ function EducationDetails() {
                 <h3 className='text-xl font-semibold'>{education.degree}</h3>
                 <p className='text-lg'>{education.institution}</p>
                 <p className='text-sm text-stone-300'>{education.duration}</p>
-                <p className='mt-2'>{education.description}</p>
+                <p className='mt-2 text-justify'>{education.description}</p>
             </motion.div>
         ))}
 

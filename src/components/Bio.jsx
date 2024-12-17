@@ -22,7 +22,7 @@ function Bio() {
                 initial={{opacity:0,x:-20}}
                 whileInView={{opacity:1,x:0}}
                 transition={{duration:0.8,delay:index*0.5}}
-                key={index} className='mb-4 text-lg lg:text-xl'>
+                key={index} className='mb-2 p-4 text-lg lg:text-xl text-justify'>
                     {bio}
                 </motion.p>
         ))}

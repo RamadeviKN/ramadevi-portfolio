@@ -17,6 +17,7 @@ import certImage3 from "../assets/certificate3.jpg";
 import certImage4 from "../assets/certificate4.jpg";
 import certImage5 from "../assets/certificate5.jpg";
 import certImage6 from "../assets/certificate6.jpg";
+import certImage7 from "../assets/certificate7.jpg";
 
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -105,7 +106,7 @@ export const PROJECTS = [
       A front-end application to help coaching clients track and manage micro goals as part of achieving larger objectives. Created to empower clients by visualizing short-term progress, the app allows users to easily add, complete, and remove goals. Built using <strong><i>HTML5</i></strong>, <strong><i>CSS3</i></strong>, and <strong><i>JavaScript</i></strong>, the project delivers a simple, user-friendly interface for effective micro-goal management.
       </>
     ),
-      image: projectImage3,
+      image: projectImage5,
     githubLink: "https://github.com/RamadeviKN/MICRO_GOAL_TRACKER",
   },
   {
@@ -119,18 +120,18 @@ export const PROJECTS = [
       image: projectImage1,
     githubLink: "https://github.com/RamadeviKN/Market-Segmentation-analysis-for-Mall-customers",
   },
-  /*{
+  {
     id: 7,
-    name: "Reinforcement Learning",
+    name: "Internet Sales Analysis Using PowerBI",
     description:(
       <>
-      "Test"
+      "A comprehensive data model with a custom date table to enable insightful analysis using <strong><i>Power BI</i></strong> and <strong><i>DAX</i></strong>. Created dynamic visuals such as sales by currency, month, and country, along with a matrix table for detailed sales insights. Designed measures to calculate total sales as numbers and percentages with an interactive toggle button. Implemented a dynamic text box to display user selections, enhancing interactivity and data clarity."
       </>
     ),
       image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/RamadeviKN/Internet-Sales-Analysis-Using-PowerBI",
   },
-  {
+  /*{
     id: 8,
     name: "Console Based Game Hub in Python",
     description:(
@@ -279,6 +280,11 @@ export const CERTIFICATIONS = [
     image: certImage4,
   },
   {
+    id: 4,
+    name: "Introduction to Python by 365DataScience",
+    image: certImage4,
+  },
+  {
     id: 5,
     name: "Intermediate Python Programming by 365DataScience",
     image: certImage5,
@@ -287,6 +293,11 @@ export const CERTIFICATIONS = [
     id: 6,
     name: "Data Cleaning and Preprocessing with pandas by 365DataScience",
     image: certImage6,
+  },
+  {
+    id: 7,
+    name: "Data Analytics your path to a six-figure salary",
+    image: certImage7,
   },
 ];
 
