@@ -125,24 +125,24 @@ export const PROJECTS = [
     name: "Internet Sales Analysis Using PowerBI",
     description:(
       <>
-      "A comprehensive data model with a custom date table to enable insightful analysis using <strong><i>Power BI</i></strong> and <strong><i>DAX</i></strong>. Created dynamic visuals such as sales by currency, month, and country, along with a matrix table for detailed sales insights. Designed measures to calculate total sales as numbers and percentages with an interactive toggle button. Implemented a dynamic text box to display user selections, enhancing interactivity and data clarity."
+      A comprehensive data model with a custom date table to enable insightful analysis using <strong><i>Power BI</i></strong> and <strong><i>DAX</i></strong>. Created dynamic visuals such as sales by currency, month, and country, along with a matrix table for detailed sales insights. Designed measures to calculate total sales as numbers and percentages with an interactive toggle button. Implemented a dynamic text box to display user selections, enhancing interactivity and data clarity.
       </>
     ),
-      image: projectImage6,
+      image: projectImage2,
     githubLink: "https://github.com/RamadeviKN/Internet-Sales-Analysis-Using-PowerBI",
   },
-  /*{
+  {
     id: 8,
-    name: "Console Based Game Hub in Python",
+    name: "Product Sales Report Using PowerBI",
     description:(
       <>
-      "Test"
+      Product Sales Report/Dashboard is built using <strong><i>Power BI</i></strong> with a focus on aesthetics and functionality. It includes interactive slicers, KPIs (Total Sales, Products Sold, and Customers), a gender split donut chart, and a country-wise bar chart. The dashboard features a clean design with custom <strong><i>DAX</i></strong> measures and aligned visuals.
       </>
     ),
       image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/RamadeviKN/Product-Sales-Report-Using-Power-BI",
   },
-  {
+  /*{
     id: 9,
     name: "The Conway's Game of Life in Python",
     description:(
