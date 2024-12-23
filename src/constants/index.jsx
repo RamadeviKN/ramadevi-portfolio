@@ -229,13 +229,6 @@ export const SKILLS = [
 
 export const EXPERIENCES = [
   {
-    title: "Career Break",
-    company: "Learning and Upskilling with persistence!",
-    duration: "January 2022 - Till Date",
-    description:
-      "Career Break due to relocation from India to USA. My permit to work is approved in USA. Currently, I am upskilling in Java, Python and Machine Learning by attending various bootcamps and looking for C2C Job opportunities in Java/Python development or Machine Learning!",
-  },
-  {
     title: "Associate Software Engineer",
     company: "Cognizant Technology Solutions",
     duration: "April 2015 - January 2022",
