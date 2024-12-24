@@ -11,13 +11,15 @@ import projectImage4 from "../assets/project4.jpeg";
 import projectImage5 from "../assets/project5.jpeg";
 import projectImage6 from "../assets/project6.jpeg";
 
-import certImage1 from "../assets/certificate1.jpg";
+import certImage1 from "../assets/certificate8.jpg";
 import certImage2 from "../assets/certificate2.jpg";
 import certImage3 from "../assets/certificate3.jpg";
 import certImage4 from "../assets/certificate4.jpg";
 import certImage5 from "../assets/certificate5.jpg";
 import certImage6 from "../assets/certificate6.jpg";
 import certImage7 from "../assets/certificate7.jpg";
+import certImage8 from "../assets/certificate1.jpg";
+import certImage9 from "../assets/certificate9.jpg";
 
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -139,21 +141,21 @@ export const PROJECTS = [
       Product Sales Report/Dashboard is built using <strong><i>Power BI</i></strong> with a focus on aesthetics and functionality. It includes interactive slicers, KPIs (Total Sales, Products Sold, and Customers), a gender split donut chart, and a country-wise bar chart. The dashboard features a clean design with custom <strong><i>DAX</i></strong> measures and aligned visuals.
       </>
     ),
-      image: projectImage6,
+      image: projectImage3,
     githubLink: "https://github.com/RamadeviKN/Product-Sales-Report-Using-Power-BI",
   },
-  /*{
+  {
     id: 9,
-    name: "The Conway's Game of Life in Python",
+    name: "Telecom Churn Analysis Using PowerBI",
     description:(
       <>
-      "Test"
+      "Telecom Churn Analysis project implemented using <strong><i>PowerBI, Power Query, DAX</i></strong> and <strong><i>Microsoft SSMS</i></strong> focuses on analyzing telecom customer churn patterns using SQL ETL workflows, Power Query transformations, and Power BI dashboards. The analysis provides valuable insights into customer behavior, helping telecom companies identify churn trends, optimize marketing strategies, and improve overall customer retention."
       </>
     ),
       image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
+    githubLink: "https://github.com/RamadeviKN/Telecom-Churn-Analysis-Using-Power-BI",
   },
-  {
+  /*{
     id: 10,
     name: "SpringBoot Microservices project",
     description:(
@@ -254,7 +256,7 @@ export const EXPERIENCES = [
 export const CERTIFICATIONS = [
   {
     id: 1,
-    name: "SpringBoot for Beginners by Amigoscode",
+    name: "Power BI",
     image: certImage1,
   },
   {
@@ -269,28 +271,33 @@ export const CERTIFICATIONS = [
   },
   {
     id: 4,
-    name: "Introduction to Python by 365DataScience",
-    image: certImage4,
-  },
-  {
-    id: 4,
-    name: "Introduction to Python by 365DataScience",
-    image: certImage4,
+    name: "Power Query and Data Modeling",
+    image: certImage9,
   },
   {
     id: 5,
+    name: "Introduction to Python by 365DataScience",
+    image: certImage4,
+  },
+  {
+    id: 6,
     name: "Intermediate Python Programming by 365DataScience",
     image: certImage5,
   },
   {
-    id: 6,
+    id: 7,
     name: "Data Cleaning and Preprocessing with pandas by 365DataScience",
     image: certImage6,
   },
   {
-    id: 7,
+    id: 8,
     name: "Data Analytics your path to a six-figure salary",
     image: certImage7,
+  },
+  {
+    id: 9,
+    name: "SpringBoot for Beginners by Amigoscode",
+    image: certImage8,
   },
 ];
 
