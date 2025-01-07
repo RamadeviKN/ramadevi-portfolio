@@ -20,6 +20,7 @@ import certImage6 from "../assets/certificate6.jpg";
 import certImage7 from "../assets/certificate7.jpg";
 import certImage8 from "../assets/certificate1.jpg";
 import certImage9 from "../assets/certificate9.jpg";
+import certImage10 from "../assets/certificate10.jpg";
 
 
 import { RiReactjsLine } from "react-icons/ri";
@@ -155,17 +156,17 @@ export const PROJECTS = [
       image: projectImage6,
     githubLink: "https://github.com/RamadeviKN/Telecom-Churn-Analysis-Using-Power-BI",
   },
-  /*{
+  {
     id: 10,
-    name: "SpringBoot Microservices project",
+    name: "Medical Symptom and Treatment Search Using PineconeDB",
     description:(
       <>
-      "Test"
+      "A streamlit application that allows users to search for medical symptoms and their associated diseases, treatments, and precautions using a powerful PineconeDB-backed vector similarity search. This project leverages <strong><i>machine learning models, Python, streamlit, pandas</i></strong> to provide an intuitive and effective user experience."
       </>
     ),
-      image: projectImage6,
-    githubLink: "https://github.com/user/chat-application",
-  },*/
+      image: projectImage1,
+    githubLink: "https://github.com/RamadeviKN/Medical-Symptom-and-Treatment-Search-Using-PineconeDB",
+  },
 ];
 
 export const BIO = [
@@ -296,6 +297,11 @@ export const CERTIFICATIONS = [
   },
   {
     id: 9,
+    name: "Introduction to Vector Databases with Pinecone",
+    image: certImage10,
+  },
+  {
+    id: 10,
     name: "SpringBoot for Beginners by Amigoscode",
     image: certImage8,
   },
