@@ -52,7 +52,7 @@ export const HOME = {
   greet: "Hello Tech Enthusiasts! 👋🏻",
   welcome_msg: "Welcome to my portfolio!",
   description:
-    "I am a passionate full-stack developer and a machine learning enthusiast with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web apps with 8 years of experience in web development. I also love to explore various machine learning models to get deeper understanding of integrating web apps with machine learning models.",
+    "I am a passionate full-stack developer and a machine learning enthusiast with a knack for creating beautiful and functional user interfaces. I like transforming ideas into engaging web apps with 8 years of experience in web development and 4+ years of love for machine learning. I also love to explore various machine learning models to get deeper understanding of integrating web apps with machine learning models for producing insights from data to improve business decisions.",
   note:
   "Currently, I am upskilling and looking for C2C Job opportunities in Java/Python development or Machine Learning!",
   };
